@@ -1,5 +1,5 @@
 import React from 'react';
-import { SignOut } from "next-auth/react";
+import { signOut } from "next-auth/react";
 
 interface AccountMenuProps {
     visible?: boolean;
